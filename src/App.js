@@ -7,6 +7,9 @@ import RollDice from "./DiceExcercise/RollDice.component";
 import Random from "./Random";
 import SetState from "./Setstate";
 import './App.css'
+import ScoreKeeper from "./ScoreKeeper";
+import Lottery from "./LotteryGame/Lottery";
+import Ball from "./LotteryGame/Ball";
 
 
 
@@ -14,7 +17,7 @@ class App extends Component{
     render(){
         return (
             <div className="App">
-             <RollDice />
+             <Ball nums={6}/>
             </div>
         )
     }
