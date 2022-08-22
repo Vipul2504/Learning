@@ -10,6 +10,7 @@ import './App.css'
 import ScoreKeeper from "./ScoreKeeper";
 import Lottery from "./LotteryGame/Lottery";
 import Ball from "./LotteryGame/Ball";
+import CoinContainer from "./FLipCoin/CoinContainer";
 
 
 
@@ -17,7 +18,7 @@ class App extends Component{
     render(){
         return (
             <div className="App">
-             <Ball nums={6}/>
+             <CoinContainer />
             </div>
         )
     }
