@@ -1,8 +1,8 @@
 import { Component } from "react";
 import './App.css'
-import Box from "./ColorBoxes/Box";
-import Hangman from "./HangmanGame/Hangman";
-import Board from "./LightOut/Board";
+import FormCom from "./Forms/Form";
+import MultipleForm from "./Forms/MultiForms";
+
 
 
 
@@ -10,7 +10,8 @@ class App extends Component{
     render(){
         return (
             <div className="App">
-            <Board/>
+            <FormCom/>
+            <MultipleForm/>
             </div>
         )
     }
