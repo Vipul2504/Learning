@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import uuid from "uuid/v4";
+import uuid from "uuid";
 
 class NewBoxForm extends Component {
   constructor(props) {
