@@ -1,7 +1,6 @@
 import { Component } from "react";
 import './App.css'
-import Box from "./ColorBoxMaker/Box";
-import BoxList from "./ColorBoxMaker/BoxList";
+import TodoList from "./TodoList/TodoList";
 
 
 
@@ -10,7 +9,7 @@ class App extends Component{
     render(){
         return (
             <div className="App">
-           <BoxList/>
+          <TodoList/>
             </div>
         )
     }
