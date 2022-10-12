@@ -1,6 +1,7 @@
 import { Component } from "react";
+
 import './App.css'
-import TodoList from "./TodoList/TodoList";
+import ZenQuote from "./zudeo";
 
 
 
@@ -9,7 +10,7 @@ class App extends Component{
     render(){
         return (
             <div className="App">
-          <TodoList/>
+          <ZenQuote/>
             </div>
         )
     }
