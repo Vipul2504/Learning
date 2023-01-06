@@ -1,9 +1,7 @@
 import './Expense.css'
 
-function Expense(){
-    const ExpenseDate = new Date();
-    const ExpenseTitle = 'Car insurancxe';
-    const ExpenseAmnt = 300;
+function Expense(props){
+    
     return (
         <div className="expense-item">
             <div>{ExpenseDate.toUTCString()}</div>
